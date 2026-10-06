@@ -1,6 +1,6 @@
 while True:
-    a=int(input("Enter a number: "))
-    b=int(input("Enter another number: ")) 
+    a=10
+    b=15
     print("Select operation:")
     print("1. Add")
     print("2. Subtract")
@@ -8,7 +8,7 @@ while True:
     print("4. Divide")
     print("5. Exit")
 
-    choice = input("Enter choice (1/2/3/4/5): ")
+    choice =3
 
     if choice == '1':
         result = a + b
